@@ -1,0 +1,25 @@
+{
+    "id": "20261003-215424-bug",
+    "kind": "bug",
+    "note": "In this area I am walking on air until I either get on top of the nearby stone or get down to the grass. Fix it so Character can never walk in mid air",
+    "build": "version=0.1.7 code=7 commit=46c4e67 (uncommitted changes) built=2026-10-03 21:22:04Z",
+    "device": "device=Google Pixel 10 os=Android OS 17 / API-37 (CP3A.260905.009/16091614) gpu=PowerVR D-Series DXT-48-1536 MC1 api=Vulkan memoryMB=11563 screen=2424x1080@356dpi",
+    "perf": "fps=39.9 worstMs=39 hitches=10 memAllocMB=351 memReservedMB=810 quality=Mobile targetFps=60",
+    "scenes": "Boot,Demo,World",
+    "playerPosition": "(747.0, 150.8, 582.0)",
+    "capturedAtUtc": "2026-10-03 21:54:24Z",
+    "secondsSinceStart": 1357.8353271484375,
+    "log": [
+        "    2.1 I [OWZ][Startup] OpenWorldZero version=0.1.7 code=7 commit=46c4e67 (uncommitted changes) built=2026-10-03 21:22:04Z",
+        "    2.1 I [OWZ][Startup] device=Google Pixel 10 os=Android OS 17 / API-37 (CP3A.260905.009/16091614) gpu=PowerVR D-Series DXT-48-1536 MC1 api=Vulkan memoryMB=11563 screen=2424x1080@356dpi",
+        "    4.0 W [Unity] The tree Prefab_Mushroom_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.",
+        "    4.6 W [Unity] TerrainCollider: MeshCollider is not supported on terrain at the moment.",
+        "    4.6 W [Unity] TerrainCollider: MeshCollider is not supported on terrain at the moment.",
+        "    4.6 W [Unity] TerrainCollider: MeshCollider is not supported on terrain at the moment.",
+        "    4.6 I [OWZ][Boot] Environment 'Demo' sanitized: disabledCameras=0",
+        "    4.7 I [OWZ][World] Using environment sun 'Sun' from scene 'Demo'",
+        "    4.7 I [OWZ][NPC] Buddy_Zrub hanging out at (567.5, 162.6, 664.0) radius=6",
+        "    4.7 I [OWZ][Boot] World ready in 2.5s environment=True",
+        " 1268.7 I [OWZ][Debug] Overlay opened"
+    ]
+}
