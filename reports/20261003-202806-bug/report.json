@@ -1,0 +1,24 @@
+{
+    "id": "20261003-202806-bug",
+    "kind": "bug",
+    "note": "the leafs are squares",
+    "build": "version=0.1.5 code=5 commit=a196fbf (uncommitted changes) built=2026-10-03 13:15:41Z",
+    "device": "device=Google Pixel 10 os=Android OS 17 / API-37 (CP3A.260905.009/16091614) gpu=PowerVR D-Series DXT-48-1536 MC1 api=Vulkan memoryMB=11563 screen=2424x1080@356dpi",
+    "perf": "fps=59.9 worstMs=33 hitches=0 memAllocMB=334 memReservedMB=805 quality=Mobile targetFps=60",
+    "scenes": "Boot,Demo,World",
+    "playerPosition": "(564.0, 162.2, 682.4)",
+    "capturedAtUtc": "2026-10-03 20:28:06Z",
+    "secondsSinceStart": 41.71146011352539,
+    "log": [
+        "    2.1 I [OWZ][Startup] OpenWorldZero version=0.1.5 code=5 commit=a196fbf (uncommitted changes) built=2026-10-03 13:15:41Z",
+        "    2.1 I [OWZ][Startup] device=Google Pixel 10 os=Android OS 17 / API-37 (CP3A.260905.009/16091614) gpu=PowerVR D-Series DXT-48-1536 MC1 api=Vulkan memoryMB=11563 screen=2424x1080@356dpi",
+        "    4.0 W [Unity] The tree Prefab_Mushroom_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.",
+        "    4.6 W [Unity] TerrainCollider: MeshCollider is not supported on terrain at the moment.",
+        "    4.6 W [Unity] TerrainCollider: MeshCollider is not supported on terrain at the moment.",
+        "    4.6 W [Unity] TerrainCollider: MeshCollider is not supported on terrain at the moment.",
+        "    4.7 I [OWZ][Boot] Environment 'Demo' sanitized: disabledCameras=0",
+        "    4.7 I [OWZ][World] Using environment sun 'Sun' from scene 'Demo'",
+        "    4.7 I [OWZ][Boot] World ready in 2.6s environment=True",
+        "   19.7 I [OWZ][Debug] Overlay opened"
+    ]
+}
