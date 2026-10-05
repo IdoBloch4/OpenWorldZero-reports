@@ -1,0 +1,32 @@
+{
+    "id": "20261005-052804-perf",
+    "kind": "perf",
+    "note": "my Pixel 10 and my wife Samsung galaxy S24 is getting very hot after just 1-2 minutes of playing the game create video settings in the pause menu and in the main menu that will allow users to reduce/increase video quality so it won't be that warm or if they want to view the game in higher quality, if that's the common way to solve such issue. otherwise just do what needed to decrease heating on mobile by default ",
+    "build": "version=0.1.20 code=20 commit=5bccc6b built=2026-10-04 23:04:09Z",
+    "device": "device=Google Pixel 10 os=Android OS 17 / API-37 (CP3A.260905.009/16091614) gpu=PowerVR D-Series DXT-48-1536 MC1 api=Vulkan memoryMB=11563 screen=2424x1080@356dpi",
+    "perf": "fps=34.2 worstMs=50 hitches=2 memAllocMB=356 memReservedMB=555 quality=Mobile targetFps=60",
+    "net": "Offline",
+    "scenes": "Boot,Demo,World",
+    "playerPosition": "(559.3, 162.4, 675.8)",
+    "capturedAtUtc": "2026-10-05 05:28:04Z",
+    "secondsSinceStart": 391.9185485839844,
+    "log": [
+        "    2.2 I [OWZ][Startup] OpenWorldZero version=0.1.20 code=20 commit=5bccc6b built=2026-10-04 23:04:09Z",
+        "    2.2 I [OWZ][Startup] device=Google Pixel 10 os=Android OS 17 / API-37 (CP3A.260905.009/16091614) gpu=PowerVR D-Series DXT-48-1536 MC1 api=Vulkan memoryMB=11563 screen=2424x1080@356dpi",
+        "    4.4 I [OWZ][Menu] Play pressed (mode=Offline)",
+        "    7.4 W [Unity] The tree Prefab_Mushroom_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.",
+        "    7.4 W [Unity] TerrainCollider: MeshCollider is not supported on terrain at the moment.",
+        "    7.4 W [Unity] TerrainCollider: MeshCollider is not supported on terrain at the moment.",
+        "    7.4 W [Unity] TerrainCollider: MeshCollider is not supported on terrain at the moment.",
+        "    7.5 I [OWZ][Boot] Removed invisible colliders: backdropHulls=8 duplicateLodColliders=90",
+        "    7.5 I [OWZ][Water] Registered 6 water surfaces, removed 1 solid water colliders",
+        "    7.5 I [OWZ][Boot] Environment 'Demo' sanitized: disabledCameras=0",
+        "    7.6 I [OWZ][World] Using environment sun 'Sun' from scene 'Demo'",
+        "    7.6 I [OWZ][NPC] Buddy_Zrub hanging out at (567.5, 162.6, 664.0) radius=6",
+        "    7.6 I [OWZ][Boot] World ready in 3.1s environment=True",
+        "   11.3 I [OWZ][Debug] Overlay opened",
+        "   66.3 I [OWZ][Debug] Quality -> Mobile",
+        "   67.3 I [OWZ][Debug] Quality -> Mobile",
+        "   69.0 I [OWZ][Debug] Quality -> Mobile"
+    ]
+}
